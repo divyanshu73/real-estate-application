@@ -3,7 +3,7 @@ import pickle
 import pandas as pd
 import numpy as np
 
-st.set_page_config(page_title="Page 01")
+st.set_page_config(page_title="Price Prediction")
 
 with open("website\df.pkl", "rb") as file:
     df = pickle.load(file)
